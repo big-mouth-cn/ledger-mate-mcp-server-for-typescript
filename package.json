@@ -1,0 +1,36 @@
+{
+  "name": "@big_mouth_cn/ledger-mate-mcp-server",
+  "version": "0.0.3",
+  "description": "小记，AI记账。MCP服务器实现。",
+  "author": "Allen Hu",
+  "type": "module",
+  "bin": {
+    "ledger-mate-mcp-server": "./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/big-mouth-cn/ledger-mate-mcp-server-for-typescript"
+  },
+  "keywords": ["ledger-mate", "bill", "mcp-server", "ai"],
+  "license": "MIT",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "cross-env tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "cross-env": "^7.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "webpack-merge": "^6.0.1"
+  }
+}

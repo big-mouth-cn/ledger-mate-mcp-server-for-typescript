@@ -1,0 +1,24 @@
+# 依赖目录
+node_modules/
+
+# 构建输出
+dist/
+build/
+
+# 环境变量文件
+.env
+.env.local
+
+# 日志
+*.log
+
+# IDE 文件
+.idea/
+.vscode/
+*.iml
+
+# TypeScript 编译缓存
+.tsbuildinfo
+
+### Mac OS ###
+.DS_Store
