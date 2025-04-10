@@ -11,6 +11,8 @@
 1. 需要准备一个支持MCP的客户端，如：[Claude for Desktop](https://claude.ai/download)
 2. 打开微信小程序，搜索"爱小记"，进入小程序后点击复制密钥，保管下来后面需要用到。
 
+![microprogram.png](docs%2Fmicroprogram.png)
+
 **2. 添加小记MCP Server**
 
 首先打开计算机上的 Claude 菜单并选择“Settings...”请注意，这些不是应用程序窗口本身中的 Claude 帐户设置。
