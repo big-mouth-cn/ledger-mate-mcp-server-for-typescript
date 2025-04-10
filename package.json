@@ -1,6 +1,6 @@
 {
   "name": "@big_mouth_cn/ledger-mate-mcp-server",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "小记，AI记账。MCP服务器实现。",
   "author": "Allen Hu",
   "type": "module",

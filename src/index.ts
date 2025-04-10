@@ -17,7 +17,7 @@ type ToolInput = z.infer<typeof ToolInputSchema>;
 // Create an MCP server
 const server = new Server({
   name: "ledger-mate-mcp-server",
-  version: "0.0.3"
+  version: "0.0.4"
 }, {
   capabilities: {
     tools: {}
