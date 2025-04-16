@@ -4,6 +4,16 @@
 你只需说"早餐25元，支付宝付款"或"工资到账银行卡18000元"，系统将自动解析金额、分类、支付方式并记录到账本中。
 而且支持🔥MCP客户端使用。
 
+---
+
+**视频演示：**
+
+【用自然语言记账】  
+https://www.bilibili.com/video/BV1TsdLYMEEb/
+
+【用支付宝的账单截图记账】  
+https://www.bilibili.com/video/BV16VoEYKEGe/
+
 ## 快速开始
 
 **1. 前提准备**  
