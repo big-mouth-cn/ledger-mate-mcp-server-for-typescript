@@ -1,6 +1,6 @@
-## 小记（AI小记）
+## AI小记
 
-小记，是一款基于AI的个人智能记账工具，通过自然语言交互实现「一句话极速记账、查账」。  
+AI小记，是一款基于AI的个人智能记账工具，通过自然语言交互实现「一句话极速记账、查账」。  
 你只需说"早餐25元，支付宝付款"或"工资到账银行卡18000元"，系统将自动解析金额、分类、支付方式并记录到账本中。
 而且支持🔥MCP客户端使用。
 
@@ -21,7 +21,34 @@ https://www.bilibili.com/video/BV1TsdLYMEEb/
 【用支付宝的账单截图记账】  
 https://www.bilibili.com/video/BV16VoEYKEGe/
 
-## 快速开始
+## 👇🏻这些应用可直接使用AI小记
+- [Claude for Desktop](https://claude.ai/download)
+- [Cursor](https://www.cursor.com/)
+- [Trae](https://www.trae.ai/)
+- [VS Code](https://code.visualstudio.com/)
+- [Cherry Studio](https://cherry-ai.com/)
+- [Cline](https://cline.bot/)
+
+### 🎉 在任意支持MCP的应用中配置即可：
+打开应用，找到 MCP Server 配置，然后根据应用提示将下面的配置添加即可。
+```json
+{
+  "mcpServers": {
+    "ledger-mate-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@big_mouth_cn/ledger-mate-mcp-server"
+      ],
+      "env": {
+        "LEDGER_MATE_ACCESS_KEY": "<YOUR_ACCESS_KEY>"
+      }
+    }
+  }
+}
+```
+
+## 演示：在Claude中使用AI小记
 
 **1. 前提准备**  
 
